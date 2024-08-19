@@ -41,3 +41,21 @@ body{
     width: 30%;
 
 }
+
+.botao{
+    margin-top: 10px;
+    background-color: #22072F;
+    color: white;
+    padding: 40px;
+    border: 2px solid var(--cor-principal);
+    border-radius: 5px;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+}
+
+.botoes{
+    display:grid;
+    grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
+
+}
