@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Headland+One&display=swap');
+
+
 
 *{
     margin: 2px;
@@ -67,5 +71,28 @@ body{
 
 .secundario{
     align-items: center;
-    margin: 0 10em;
+    margin: 0 1em;
+    font-size: medium;
 }
+
+.abacate{
+    display: flex;
+    justify-content: space-around;
+    font-size: 5%;
+}
+
+.banana{
+    width:100%;
+    display: grid;
+    grid-template-columns: 2% 20% 5% 20% 10% 40%;
+    font-size: 150%;
+    font-family: "Headland One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abacaxi{
+    display: flex;
+    justify-content: space-around;
+
+    }
