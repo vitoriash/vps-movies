@@ -96,3 +96,21 @@ body{
     justify-content: space-around;
 
     }
+
+.dispositivo-lista{
+    display:flex;
+    justify-content: center;
+    list-style-type:none;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.lista-item{
+    color:var(--cor-principal);
+}
+
+.nomedosite{
+    text-align: center;
+}
